@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Needit" max_length="40" name="x_58872_needit_nedit" sizeclass="20" type="collection">
+    <element audit="true" extends="task" label="Needit" max_length="40" name="x_58872_needit_nedit" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Need more" mandatory="true" max_length="40" name="u_choice_2" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Need more" max_length="40" name="u_choice_2" type="string">
             <choice>
                 <element inactive_on_update="false" label="A" sequence="0" value="a"/>
                 <element inactive_on_update="false" label="B" sequence="1" value="b"/>
